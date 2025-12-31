@@ -8,10 +8,6 @@ resources:
   - service.yml
   - secret.yml
 
-# Explicitly set the image tag to use semantic version
-images:
-- name: rahik/my-app-web
-  newTag: 0.0.2
 
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
