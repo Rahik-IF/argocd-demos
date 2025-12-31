@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: chai-app
-        image: rahik/my-app-web:0.0.7
+        # 🟢 CRITICAL: Remove version tag - let Kustomize manage it via .argocd-source-chai-app.yaml
+        image: rahik/my-app-web
         ports:
         - containerPort: 3000
         env:
