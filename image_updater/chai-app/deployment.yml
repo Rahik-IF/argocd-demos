@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: chai-app
-        image: rahik/my-app-web:latest
+        image: rahik/my-app-web:0.0.1
         ports:
         - containerPort: 3000
         env:
