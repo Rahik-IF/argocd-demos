@@ -8,11 +8,6 @@ resources:
   - service.yml
   - secret.yml
 
-# Image override for ArgoCD Image Updater
-images:
-- name: rahik/my-app-web
-  newTag: 0.0.4
-
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
 #   app: chai-app
